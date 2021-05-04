@@ -1,0 +1,7 @@
+---
+# handlers file for roles/a-simple-webserver
+- name: restart apache service
+  service:
+    name: httpd
+    state: restarted
+    enabled: yes

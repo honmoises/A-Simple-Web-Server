@@ -1,0 +1,11 @@
+[servers]
+lab1
+lab1imm
+
+[internal]
+lab1
+
+[qradar]
+qradar0
+qradar1
+qradar2

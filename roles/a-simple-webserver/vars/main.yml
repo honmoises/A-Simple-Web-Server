@@ -1,0 +1,5 @@
+---
+# vars file for roles/a-simple-webserver
+httpd_packages:
+  - httpd
+  - python3-mod_wsgi
