@@ -18,7 +18,7 @@
 
 ## Output
 
-[ansible@ansible-lab A-Simple-Web-Server]$ ansible-playbook main.yml -K
+'''[ansible@ansible-lab A-Simple-Web-Server]$ ansible-playbook main.yml -K
 BECOME password:
 
 PLAY [This is my role-based playbook] **********************************************************
@@ -37,7 +37,7 @@ TASK [a-simple-webserver : start httpd] ****************************************
 ok: [lab1]
 
 PLAY RECAP *************************************************************************************
-lab1                       : ok=0    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
+lab1                       : ok=0    changed=4    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0'''
 
 We expect 4 changes:
 1. Install httpd.
