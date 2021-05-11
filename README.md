@@ -47,10 +47,11 @@ We expect 4 changes:
 4. Start the web server.
 
 http://lab1
+
 ![image](https://user-images.githubusercontent.com/14948712/117051383-b7672800-acd3-11eb-9154-13725a6dd47b.png)
 
 
-## Author 
+## Author Information 
 Moises M.
 
 Twitter: @Moises_Monge_M
