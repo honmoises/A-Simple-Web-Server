@@ -3,7 +3,7 @@
 ## Requirements
 - The target machine has to support YUM package management tool (RedHat, CentOS).
 
-## Variable
+## Variables
 
 - This is a role based Playbook, it will install two packages in the target host:
 1. httpd
@@ -18,7 +18,8 @@
 
 ## Output
 
-```[ansible@ansible-lab A-Simple-Web-Server]$ ansible-playbook main.yml -K
+```
+[ansible@ansible-lab A-Simple-Web-Server]$ ansible-playbook main.yml -K
 BECOME password:
 
 PLAY [This is my role-based playbook] **********************************************************
