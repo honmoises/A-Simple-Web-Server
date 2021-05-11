@@ -1,8 +1,14 @@
 # A-Simple-Web-Server
+
+## Requirements
+- The target machine has to support YUM package management tool (RedHat, CentOS).
+
+## Variable
 - This is a role based Playbook, it will install two packages in the target host:
 1. httpd
 2. python3-mod_wsgi
-
+- These are define as variables in the defaults of the role.
+- 
 - More packages can be installed since it uses the vars defined by the role.
 
 Once installed it will restart the httpd service and copy a custom index.html
